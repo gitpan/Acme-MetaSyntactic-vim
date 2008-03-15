@@ -5,7 +5,7 @@ use utf8;
 use strict;
 use warnings;
 
-use version; our $VERSION = qv('v1.0.0');
+use version; our $VERSION = qv('v1.0.1');
 
 use base 'Acme::MetaSyntactic::MultiList';
 __PACKAGE__->init();
@@ -14,6 +14,8 @@ __PACKAGE__->init();
 
 =encoding utf8
 
+=for stopwords Moolenaar autocmds
+
 =head1 NAME
 
 Acme::MetaSyntactic::vim - The Vim theme
@@ -21,7 +23,7 @@ Acme::MetaSyntactic::vim - The Vim theme
 
 =head1 VERSION
 
-This document describes Acme::MetaSyntactic::vim version 1.0.0.
+This document describes Acme::MetaSyntactic::vim version 1.0.1.
 
 
 =head1 DESCRIPTION
@@ -113,8 +115,8 @@ Elliot Shank  C<< <perl@galumph.com> >>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright ©2007, Elliot Shank C<< <perl@galumph.com> >>. All rights
-reserved.
+Copyright ©2007-2008, Elliot Shank C<< <perl@galumph.com> >>. All
+rights reserved.
 
 This module is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself. See L<perlartistic>.
@@ -134,7 +136,7 @@ THE COST OF ALL NECESSARY SERVICING, REPAIR, OR CORRECTION.
 
 IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
 WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR
-REDISTRIBUTE THE SOFTWARE AS PERMITTED BY THE ABOVE LICENCE, BE LIABLE
+REDISTRIBUTE THE SOFTWARE AS PERMITTED BY THE ABOVE LICENSE, BE LIABLE
 TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL, OR
 CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE
 SOFTWARE (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING

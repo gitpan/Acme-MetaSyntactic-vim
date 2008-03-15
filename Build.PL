@@ -18,14 +18,6 @@ my $class = Module::Build->subclass( code => <<'SUBCLASS' );
         $self->depends_on('test');
     } # end ACTION_authortest()
 
-    sub ACTION_distdir {
-        my $self = shift;
-
-        $self->depends_on('authortest');
-
-        $self->SUPER::ACTION_distdir;
-    } # end ACTION_distdir
-
 SUBCLASS
 
 my $builder = $class->new(
